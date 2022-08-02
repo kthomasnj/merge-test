@@ -1,0 +1,23 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid black;
+  height: 50vh;
+}
+
+.flexBox {
+  background-color: green;
+  /* margin: auto; */
+  width: 200px;
+  height: 18vh;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border: 2px solid black;
+}
+
+.flexBox:hover {
+  background-image: url(./assets/images/save.png);
+  transition: all 0.3s ease-in-out;
+}
